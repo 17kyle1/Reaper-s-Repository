@@ -20,7 +20,7 @@ CREATE TABLE disease (
 )
 CREATE TABLE lasting_effects (
     id INT PRIMARY KEY
-    bolshevik_revolution TEXT NOT NULL
+    bolsheviks TEXT NOT NULL
     world_war_two TEXT NOT NULL
     league_of_nations TEXT NOT NULL
     deaths INT NOT NULL
