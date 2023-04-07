@@ -1,0 +1,21 @@
+body {
+    height: 100vh;
+}
+
+.title-card {
+    height: 25%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.tables {
+    display: flex;
+    justify-content: space-around;
+}
+
+.table-1 {
+    border: 3px black;
+    height: 75%;
+    width: 25%;
+}
