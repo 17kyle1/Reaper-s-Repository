@@ -2,6 +2,16 @@ body {
     height: 100vh;
 }
 
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+h3 {
+    vertical-align: middle;
+}
+
 .title-card {
     height: 25%;
     background-color: black;
@@ -15,7 +25,32 @@ body {
 }
 
 .table-1 {
+    padding: 3px;
     border: 3px black;
-    height: 75%;
+    border-style: double;
+    height: 75vh;
     width: 25%;
+    text-align: center;
+    margin-top: 15px;
 }
+
+.table-2 {
+    padding: 3px;
+    border: 3px black;
+    border-style: double;
+    height: 75vh;
+    width: 25%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.table-3 {
+    padding: 3px;
+    border: 3px black;
+    border-style: double;
+    height: 75vh;
+    width: 25%;
+    text-align: center;
+    margin-top: 15px;
+}
+
