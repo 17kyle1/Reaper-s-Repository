@@ -1,16 +1,20 @@
 const router = require('express').Router();
-const { Battles, Disease, LastingEffects } = require('../models');
+const { HomePage } = require('../models');
 
 router.get('/', async (req, res) => {
     try {
-        const homepageData = await Battles.findAll({
+        const homepageData = await Gallery.findAll({
             include: [
                 {
-                    model: ChildTables,
+                    model: HomePage,
                     attributes: ['Battles', 'Disease', 'Lasting Effects'],
-                }
-            ]
+                },
+            ],
         });
 
-    }
+// authentication in week 14/act 19
+    } catch (err) {
+        console.log(err);
+        res.status(500).json(err);
 });
+
