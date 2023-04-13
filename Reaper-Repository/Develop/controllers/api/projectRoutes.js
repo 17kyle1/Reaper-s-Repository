@@ -1,20 +1,22 @@
 const router = require('express').Router();
 const { HomePage } = require('../models');
+const { Battles } = require('../models');
+const { Disease } = require('../models');
+const { LastingEffects } = require('../models');
 
 router.get('/', async (req, res) => {
     try {
-        const homepageData = await Gallery.findAll({
-            include: [
-                {
-                    model: HomePage,
-                    attributes: ['Battles', 'Disease', 'Lasting Effects'],
-                },
-            ],
-        });
+        const dbBattlesData = await Battles.findAll({})
+        const battle = dbBattlesData.map((battleData) =>
+            battleData.get({ plain: true })
+        );
+        res.render('battles', {
+            battle,
+            loggineIn: req.session.loggedIn
 
-// authentication in week 14/act 19
+        }
+        )
     } catch (err) {
         console.log(err);
-        res.status(500).json(err);
+    }
 });
-
