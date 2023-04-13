@@ -6,7 +6,7 @@ class Disease extends Model {}
 Disease.init(
     {
         id: {
-            type: Datatypes.INTEGER,
+            type: DataTypes.INTEGER,
             allowNull: false,
             primaryKey: true,
             autoIncrement: true
@@ -16,7 +16,7 @@ Disease.init(
             allowNull: false,
         },
         deaths: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.TEXT,
             allowNull: false,
             primaryKey: false,
         },
@@ -37,4 +37,4 @@ Disease.init(
     }
 );
 
-module.exports = disease;
+module.exports = Disease;
