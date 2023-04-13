@@ -6,7 +6,7 @@ class LastingEffects extends Model {}
 LastingEffects.init(
     {
         id: {
-            type: Datatypes.INTEGER,
+            type: DataTypes.INTEGER,
             allowNull: false,
             primaryKey: true,
             autoIncrement: true
@@ -16,7 +16,7 @@ LastingEffects.init(
             allowNull: false,
         },
         deaths: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.TEXT,
             allowNull: false,
             primaryKey: false,
         },

@@ -1,6 +1,6 @@
 DROP DATABASE IF EXISTS reapers_db;
 CREATE DATABASE reapers_db;
-
+/*
 USE reapers_db;
 
 CREATE TABLE battles (
@@ -25,3 +25,4 @@ CREATE TABLE lasting_effects (
     league_of_nations TEXT NOT NULL
     deaths INT NOT NULL
 )
+*/

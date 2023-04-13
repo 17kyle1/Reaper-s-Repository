@@ -6,7 +6,7 @@ class Battles extends Model {}
 Battles.init(
     {
         id: {
-            type: Datatypes.INTEGER,
+            type: DataTypes.INTEGER,
             allowNull: false,
             primaryKey: true,
             autoIncrement: true
@@ -16,7 +16,7 @@ Battles.init(
             allowNull: false,
         },
         deaths: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.TEXT,
             allowNull: false,
             primaryKey: false,
         },
