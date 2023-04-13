@@ -3,39 +3,23 @@ const { LastingEffects } = require('../models');
 const lastingEffectsData = [
     {
         id: 1,
-        name: 'trenchFoot',
-        deaths: 0,
+        name: 'Shell Shock',
         description: '',
         relevency: '',
     },
     {
         id: 2,
-        name: 'Typhoid',
-        deaths: 0,
+        name: 'Lost Generation',
         description: '',
         relevency: '', 
     },
     {
         id: 3,
-        name: 'Influenza',
-        deaths: 0,
+        name: 'Treaty of Versailles',
         description: '',
-        relevency: '',
-    },
-    {
-        id: 4,
-        name: 'Malaria',
-        deaths: 0,
-        description: '',
-        relevency: '',
-    },
-    {
-        id: 5,
-        name: 'Tuburculosis',
-        deaths: 0,
-        description: '',
-        relevency: '',
-    },
+        relevency: 'Led to World War 2',
+    }
+
 ];
 
 const seedLastingEffects = () => LastingEffects.bulkCreate(lastingEffectsData);
