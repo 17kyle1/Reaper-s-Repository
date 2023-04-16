@@ -1,39 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--<link rel="stylesheet" href="Reaper-Repository\Develop\public\css\jass.css">-->
-    <link href="Reaper-Repository\Develop\public\css\style.css" rel="stylesheet">
-    <title>Reaper's Repository: The Forgotten Apocaplyse of the Great War</title>
-</head>
-<header class="title-card">
-    <h1>Reaper's Repository:</h1>
-    <br>
-    <h2>The Forgotten Apocalypse of the Great War</h2>
-</header>
-<body>
-    {{ Disease }}
-    <footer>
-        <h2>Admin Login</h2>
-<form class="form login-form">
-  <div class="form-group">
-    <label for="email-login">Email:</label>
-    <input class="form-input" type="text" id="email-login" />
-  </div>
-  <div class="form-group">
-    <label for="password-login">Password:</label>
-    <input class="form-input" type="password" id="password-login" />
-  </div>
-  <div class="form-group">
-    <button class="btn btn-primary" type="submit">Login</button>
-  </div>
-</form>
 
-<!--
-    <script src="/js/login.js"></script> 
--->
-    </footer>
-</body>
-</html>
+    <div class="tables">
+        <card class="table-1">
+            <h3>{{ disease.name[0] }}</h3>
+            <br>
+            <h4>Number of Deaths: {{ disease[0].deaths[0] }}</h4>
+            <h5>{{ disease.description[0] }}</h5>
+            <h5>{{ disease.relevancy[0] }}</h5>
+        </card>
+          <card class="table-2">
+            <h3>{{ disease.disease.name[1] }}</h3>
+            <br>
+            <h4>Number of Deaths: {{ battles[1].deaths[1] }}</h4>
+            <h5>{{ disease.description[1] }}</h5>
+            <h5>{{ disease.relevancy[1] }}</h5>
+        </card>
+          <card class="table-3">
+           <h3>{{ disease.name[2] }}</h3>
+            <br>
+            <h4>Number of Deaths: {{ battles[2].deaths[2] }}</h4>
+            <h5>{{ disease.description[2] }}</h5>
+            <h5>{{ disease.relevancy[2] }}</h5>
+        </card>
+    </div>
