@@ -1,7 +1,7 @@
 # Reaper's Repository
 
 ## Description:
-[Coming Soon}
+Reaper's Repository is a learning tool for users who want to understand the horrors of The Great War. It covers the devastating battles, horrendous diseases, and the tragic lasting effect of the war.   
 
 ## User Story: 
 As a user  
@@ -12,11 +12,14 @@ When I click Login
 I fill out my email and password  
 I am able to edit content on one of three content pages  
 
-## Languages
-[Coming Soon]  
+## Technologies Used
+Sequelize  
+Node  
+Skeleton  
 
 ## Screenshot
-[Coming Soon]  
+![localhost_3001_api_project__3_](https://user-images.githubusercontent.com/119766277/232628910-633e724a-14ba-4c12-9dd7-7fee69c5aa5a.png)  
+
 
 ## Links
 https://github.com/17kyle1/Reaper-s-Repository
