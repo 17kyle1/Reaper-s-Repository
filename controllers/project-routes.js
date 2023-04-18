@@ -5,14 +5,14 @@ const { Disease } = require('../models');
 const { LastingEffects } = require('../models');
 
 
-router.get('/', async (req, res) => {
-    try {
-        console.log("It worked!")
-    }
-    catch(err){
-        console.log(err)
-    }
-})
+// router.get('/', async (req, res) => {
+//     try {
+//         console.log("It worked!")
+//     }
+//     catch(err){
+//         console.log(err)
+//     }
+// })
 /*router.get('/', async (req, res) => {
     try {
         const dbBattlesData = await Battles.findAll({})
