@@ -6,18 +6,19 @@ const router = require('express').Router();
 
 
 router.get('/', async (req, res) => {
-     try {
+    try {
         // const dbBattlesData = await Battles.findAll({})
         // const battle = dbBattlesData.map((battleData) =>
         //     battleData.get({ plain: true })
         // );
-        res.render('homepage', {
+        res.render('homepage', {})
             // battle,
             // loggineIn: req.session.loggedIn
 
-        }
-        )
+        // }
+        // )
     } catch (err) {
+        console.log("================================================================================");
         console.log(err);
     }
 });
