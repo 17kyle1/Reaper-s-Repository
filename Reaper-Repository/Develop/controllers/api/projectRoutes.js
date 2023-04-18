@@ -1,8 +1,8 @@
 const router = require('express').Router();
 // const { HomePage } = require('../models');
-const { Battles } = require('../../models');
-const { Disease } = require('../../models');
-const { LastingEffects } = require('../../models');
+//const { Battles } = require('../../models');
+//const { Disease } = require('../../models');
+//const { LastingEffects } = require('../../models');
 
 
 router.get('/', async (req, res) => {
