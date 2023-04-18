@@ -1,5 +1,34 @@
 {
+  "name": "reaper-s-repository",
+  "version": "1.0.0",
+  "description": "## Description: Reaper's Repository is a learning tool for users who want to understand the horrors of The Great War. It covers the devastating battles, horrendous diseases, and the tragic lasting effect of the war.",
+  "main": "server.js",
   "dependencies": {
-    "env": "^0.0.2"
-  }
+    "connect-session-sequelize": "^7.1.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.6",
+    "express-session": "^1.17.3",
+    "handlebars": "^4.7.7",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.2.0",
+    "sequelize": "^6.31.0",
+    "session": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/17kyle1/Reaper-s-Repository.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/17kyle1/Reaper-s-Repository/issues"
+  },
+  "homepage": "https://github.com/17kyle1/Reaper-s-Repository#readme"
 }
